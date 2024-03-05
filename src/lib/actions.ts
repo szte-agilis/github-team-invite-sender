@@ -58,5 +58,5 @@ export async function addUser(
     return { message: "GitHub user not found", ok: false };
   }
 
-  return { message: `Sent invite to ${username} via email`, ok: true };
+  return { message: `Sent invitation to ${username} via email`, ok: true };
 }
